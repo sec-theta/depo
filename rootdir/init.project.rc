@@ -67,6 +67,9 @@ on post-fs-data
 #SMB
     chown system system /proc/smb/ScreenComm
     chmod 0660 /proc/smb/ScreenComm
+#TPD
+    chmod 0660 /sys/class/syna/gesenable
+    chown system system /sys/class/syna/gesenable
 
 # BT
 #    chmod 0660 /dev/stpbt

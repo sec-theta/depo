@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := Aqua_Ace
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/intex/ace/device_persimmon.mk)
+$(call inherit-product, device/intex/ace/device_ace.mk)
 
 # Configure dalvik heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
